@@ -67,7 +67,7 @@ Créez un `package.json` avec les dépendances nécessaires :
 Construisez l'image avec `docker build` et vérifiez sa taille (assurez vous d'être dans le répertoire `node-app`):
 
 ```bash
-nom install
+npm install
 docker build -t node-app:optimized .
 docker images node-app:optimized
 ```
